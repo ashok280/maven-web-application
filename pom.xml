@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Ashok Releases Nexus Repository</name>
-	      <url>http://44.201.202.235:8081/repository/Ashok-maven//</url>
+	      <url>http://3.84.45.163:8081/repository/Ashok-maven/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Ashok Snapshot Nexus Repository </name>
-	      <url>http://44.201.202.235:8081/repository/Ashok-Maven-snapshot//</url>
+	      <url>http://3.84.45.163:8081/repository/Ashok-maven/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
