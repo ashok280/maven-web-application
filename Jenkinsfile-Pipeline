@@ -1,0 +1,12 @@
+node
+   {
+     stage('checkoutthecode')
+	 {
+	  git credentialsId: '1472f6e4-7379-4176-9ab0-13af856b322d', url: 'https://github.com/ashok280/maven-web-application.git'
+	 }
+	 stage('Build')
+	 {
+	  sh "mvn clean package"
+	 }
+	 
+   }   
